@@ -1,6 +1,14 @@
 # BeadsViewer — Редактор бісерних схем
 
+<img width="1920" height="829" alt="image" src="https://github.com/user-attachments/assets/83c5fd2a-cf0a-4cd5-87f5-513ecc7c91f4" />
+
 Сучасний веб-редактор для створення, редагування, підрахунку та фізичного відтворення схем вишивки й плетіння бісером по клітинках із каталогом **Preciosa Traditional Czech Beads**.
+
+## 🌐 Демо
+
+Спробувати без встановлення: **[foxalastor.github.io/BeadsViewer](https://foxalastor.github.io/BeadsViewer/)**
+
+Застосунок повністю клієнтський (без бекенду) — усі дані малюнка автозберігаються локально в браузері через IndexedDB.
 
 ## Основні можливості
 
