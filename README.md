@@ -55,21 +55,6 @@ npm test
 
 > Якщо `npm test` запускається в середовищі без локального `tsx`, npm може запропонувати завантажити його через `npx`. Для звичайної розробки це не впливає на Docker-збірку.
 
-## Підготовка до GitHub
-
-Перед першим комітом:
-
-```bash
-git init
-git add .
-git commit -m "Initial BeadsViewer project"
-git branch -M main
-git remote add origin https://github.com/<username>/<repository>.git
-git push -u origin main
-```
-
-У репозиторій не потрапляють `node_modules`, `dist`, локальні змінні середовища, IDE-файли та локальні `.beadsproj` завдяки `.gitignore`.
-
 ## Структура проєкту
 
 ```text
