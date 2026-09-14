@@ -1,0 +1,28 @@
+[
+  {
+    "artNo": "331 19 001",
+    "category": "Opaque (Непрозорий / Sfinx)",
+    "colors": [
+      { "code": "03050", "hex": "#FFFFFF", "name": "White" },
+      { "code": "23980", "hex": "#1B1B1B", "name": "Jet Black" },
+      { "code": "93190", "hex": "#D11D27", "name": "Red" },
+      { "code": "93210", "hex": "#9C151B", "name": "Dark Red" },
+      { "code": "83110", "hex": "#F4C430", "name": "Butter Yellow" },
+      { "code": "53250", "hex": "#55B359", "name": "Light Green" },
+      { "code": "53270", "hex": "#277738", "name": "Green" },
+      { "code": "33070", "hex": "#5DA3D5", "name": "Light Blue" },
+      { "code": "33080", "hex": "#1B458F", "name": "Cobalt Blue" },
+      { "code": "13600", "hex": "#E65100", "name": "Orange" }
+    ]
+  },
+  {
+    "artNo": "331 19 001",
+    "category": "Transparent - Rainbow",
+    "colors": [
+      { "code": "58205", "hex": "#8FB7C9", "name": "Light Blue Rainbow" },
+      { "code": "11050", "hex": "#E6E2D8", "name": "Crystal Rainbow Ivory" },
+      { "code": "98110", "hex": "#B31B34", "name": "Ruby Rainbow" },
+      { "code": "88130", "hex": "#F39C12", "name": "Amber Rainbow" }
+    ]
+  }
+]

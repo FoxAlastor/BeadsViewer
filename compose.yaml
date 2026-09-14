@@ -1,0 +1,7 @@
+services:
+  beadsviewer:
+    build: .
+    container_name: beadsviewer
+    ports:
+      - "8080:80"
+    restart: unless-stopped
