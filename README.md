@@ -21,9 +21,18 @@
 - Підрахунок бісеру, список закупівлі та експорт CSV.
 - Експорт схем у PNG/JPEG із сіткою, кодами кольорів і легендою.
 
-## Швидкий запуск через Docker
+## Встановлення та запуск
 
-Потрібні лише **Docker** і Docker Compose plugin:
+Спочатку клонуй репозиторій і перейди в його теку — це потрібно незалежно від того, який варіант запуску оберете нижче:
+
+```bash
+git clone https://github.com/FoxAlastor/BeadsViewer.git
+cd BeadsViewer
+```
+
+### Варіант 1: Docker (рекомендовано)
+
+Потрібні лише **Docker** і Docker Compose plugin (перевірити наявність: `docker --version` і `docker compose version`).
 
 ```bash
 docker compose up --build
@@ -39,7 +48,9 @@ docker compose down
 
 Контейнер збирає production-версію через Node.js, а потім роздає статичні файли через Nginx. Налаштування SPA fallback уже додане, тому оновлення сторінки працює коректно.
 
-## Запуск без Docker
+### Варіант 2: Node.js напряму
+
+Потрібен **Node.js 20+** та npm (перевірити наявність: `node --version`).
 
 ```bash
 npm install
@@ -48,7 +59,7 @@ npm run dev
 
 Dev-сервер буде доступний за адресою <http://localhost:3000>.
 
-Production-збірка:
+Production-збірка (генерує статичні файли в `dist/`, які потім можна роздавати будь-яким веб-сервером):
 
 ```bash
 npm run build
